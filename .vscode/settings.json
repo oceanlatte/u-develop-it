@@ -1,9 +1,0 @@
-{
-  "editor.inlayHints.enabled": "on",
-  "editor.parameterHints.enabled": false,
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#1F3300",
-    "titleBar.activeBackground": "#2B4801",
-    "titleBar.activeForeground": "#F1FFDB"
-  }
-}
