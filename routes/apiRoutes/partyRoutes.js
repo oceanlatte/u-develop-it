@@ -3,10 +3,15 @@ const router = express.Router();
 const db = require('../../db/connection');
 const inputCheck = require('../../utils/inputCheck');
 
-/* These routes were all originally '/api/candidates'
+/* 
+These routes were all originally '/api/candidates'
 bc we refactored on server.js to require('./routes/apiRoutes)..
 we no longer need to declare /api/ .. before /candidates
-because it's hard coded onto the server.js file */
+because it's hard coded onto the server.js file 
+
+all APP.GET or APP.DELETE's were changed to ROUTER.GET ... ect
+*/
+
 
 // Get --ALL-- parties
 router.get('/parties', (req, res) => {
